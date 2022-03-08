@@ -7,6 +7,4 @@ def load_json(filename):
     return jsn
 
 person = load_json("json_example.json")
-print(person["children"])
-print(person[0])
 print(json.dumps(person,indent=4))
